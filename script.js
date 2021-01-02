@@ -52,7 +52,7 @@ function onStart(){
 	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.\
 Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą \"Podaj kolejną literę\".\
 Jeżeli znasz już nazwę demona kliknij przycisk z etykietą \"Podaj nazwę demona\".\
-Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Podaję się\".\
+Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Poddaję się\".\
 Jeżeli masz odwagę kliknij przycisk z etykietą \"Demona poproszę\" i baw się dobrze.'
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
