@@ -75,8 +75,6 @@ window.onload = onStart
 
 function win(){
 	message = "Gratuluję zwycięstwa,<br>pokonałeś "+randomDemonWinOrLoose +"."
-	//document.getElementById("letterOrWord").style.color="#26610d"
-	//document.getElementById("letterOrWord").classList.add("letterOrWordWin")
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -133,6 +131,7 @@ function nextButton(){
 	randomDemonPattern = ''
 	usedLetters = ''
 	randomDemon = demons_list[Math.floor(Math.random()*demons_list.length)]
+	//randomDemon = demons_list[29]
 	randomDemonName = randomDemon[0]
 	document.getElementById("letterOrWord").innerHTML = ""
 	document.getElementById("letter").disabled=false
@@ -143,7 +142,6 @@ function nextButton(){
 	document.getElementById("userInput").disabled=true
 	document.getElementById("demonPattern").classList.remove("demonPatternWin")
 	document.getElementById("demonPattern").classList.remove("demonPatternLoose")
-	//document.getElementById("demonPattern").classList.add("demonPatternNormal")
 	chancesDesc = document.getElementById('gameLevel').value
 	chancesSel = document.getElementById('gameLevel')
 	chancesDesc =chancesSel.options[chancesSel.selectedIndex].text
@@ -171,8 +169,8 @@ function nextButton(){
 	randomDemonPatternArray = randomDemonPattern.split()
 	
 
-	document.getElementById("demonDesc").innerHTML = randomDemonDesc// + '<br><br>' + randomDemonName + '<br><br>' + usedDemons 
-	document.getElementById("demonPattern").innerHTML = randomDemonPattern// + '<br><br>' + "unknown char count "+ randomDemonPattern.match(/-/g).length
+	document.getElementById("demonDesc").innerHTML = randomDemonDesc 
+	document.getElementById("demonPattern").innerHTML = randomDemonPattern
 	
 }
 
@@ -228,8 +226,7 @@ function okButton(){
 		else {
 			loose()
 		}
-		//document.getElementById("letterOrWord").innerHTML = message
-		//document.getElementById("demonPattern").innerHTML = message
+	
 		
 		document.getElementById("ok").disabled=true
 		document.getElementById("letter").disabled=true
@@ -256,7 +253,10 @@ function okButton(){
 					if (randomDemonName.charAt(i)==userInput){
 						randomDemonPatternArray[i]=userInput
 					}
-			
+					else if (randomDemonName.charAt(i)==' '){
+						randomDemonPatternArray[i] =' '
+					}
+					
 					else{
 						randomDemonPatternArray[i]=randomDemonPattern.charAt(i)
 					}
@@ -269,7 +269,6 @@ function okButton(){
 				
 				if (randomDemonPattern==randomDemonName){
 					win()
-					//document.getElementById("letterOrWord").innerHTML = message
 				}
 		
 			}
@@ -290,8 +289,6 @@ function okButton(){
 
 function giveUpButton(){
 	const message = "Tajemniczym demonem jest "+randomDemonName+"."
-	//document.getElementById("demonDesc").innerHTML = message
-	//document.getElementById("demonPattern").style.fontSize="20px"
 	document.getElementById("demonPattern").innerHTML = message
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
