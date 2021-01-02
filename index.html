@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="Demoniczny wisialec">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demoniczny wisialec</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	
+ 
+</head>
+<body>
+	<h1 id="MainTitle"> Demoniczny wisielec</h1>
+
+	<div id="ChooseLevel">
+		<label for="gameLevel" id="gameLevelLbl" class="ChooseLevelClass">Wybierz poziom gry	</label>
+		<select id="gameLevel" name="gameLevel" class="ChooseLevelClass">
+			<option value="Easy">	Łatwy, 20 woreczków soli	</option>
+			<option value="Medium">	Średni, 10 woreczków soli	</option>
+			<option value="Hard">	Trudny, 5 woreczków soli	</option>
+		</select>
+	</div>
+	<div id="demonDescDiv">
+		<p id="demonDesc"></p>
+	</div>
+	<div id="demonPatternDiv">
+		<p id="demonPattern"></p>
+	</div>
+	
+
+	<p id = "chancesLeft"></p>
+	<p id = "letterOrWord"></p>
+
+	<div id="windowBottom">
+		<form onSubmit="return false">
+			<div id="userField">
+				<input type="text" id="userInput" name="userInput" onSubmit="return false">
+			</div>
+		
+			<div id="buttons">
+				<div id="topRow">
+					<button id = "next"  class="buttonTop" type="button" onclick="nextButton()">Demona poproszę</button>
+					<button id = "ok" class="buttonTop" type="button" onclick="okButton()">OK</button>
+				</div>
+				<div id="bottomRow">
+					<button id = "letter" class="buttonBottom" type="button" onclick="letterButton()" >Podaj kolejną literę</button>
+					<button id = "word" class="buttonBottom" type="button" onclick="wordButton()">Podaj nazwę demona</button>
+					<button id = "giveUp" class="buttonBottom" type="button" onclick="giveUpButton()">Poddaję się</button>
+				</div>
+			</div>
+		</form>
+	</div>
+
+</body>
+
