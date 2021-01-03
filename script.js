@@ -49,10 +49,11 @@ var chances = 20
 var chancesOnStart = 20
 
 function onStart(){
-	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.\
-Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą \"Podaj kolejną literę\".\
-Jeżeli znasz już nazwę demona kliknij przycisk z etykietą \"Podaj nazwę demona\".\
-Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Poddaję się\".\
+	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.<br>\
+Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą \"Podaj kolejną literę\".<br>\
+Jeżeli znasz już nazwę demona kliknij przycisk z etykietą \"Podaj nazwę demona\".<br>\
+Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Poddaję się\".<br>\
+Za każdym razem swoją decyzję potwierdź klikając z etykietą \"OK\".<br>\
 Jeżeli masz odwagę kliknij przycisk z etykietą \"Demona poproszę\" i baw się dobrze.'
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
@@ -83,7 +84,7 @@ function win(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz stoczyć następną walkę, naciśnij przycisk \"Demona poproszę\".'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }

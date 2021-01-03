@@ -66,17 +66,18 @@ p{
     width:50%;
 	margin-right:20px;
 }
+/*
 #demonDescDiv{
 	height:20vh;	
 }
-
+*/
 #demonDesc{
 	padding:0px;
 	padding-top:10px;
 	display: table-cell; 
 	vertical-align: middle;
-	height:20vh;
-	
+	height:20vh;	
+	padding-top:10px;
 }
 
 #demonPatternDiv{
@@ -124,9 +125,11 @@ p{
    border-radius: 25px;
    height:5%;
    line-height:5%;
-
 }
-
+.butLbl{
+	padding:3px;
+	margin:0;
+}
 #topRow{
     padding-bottom:5px;
     padding-top:5px;
