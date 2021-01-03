@@ -74,7 +74,7 @@ Jeżeli masz odwagę kliknij przycisk z etykietą \"Demona poproszę\" i baw si�
 window.onload = onStart
 
 function win(){
-	message = "Gratuluję zwycięstwa,<br>pokonałeś "+randomDemonWinOrLoose +"."
+	message = "Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś "+randomDemonWinOrLoose +".<br><br>"
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -82,8 +82,8 @@ function win(){
 	document.getElementById("next").disabled=false
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
-	document.getElementById("chancesLeft").innerHTML = ''
-	document.getElementById("letterOrWord").innerHTML = ''
+	document.getElementById("chancesLeft").innerHTML = '	'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
@@ -101,16 +101,17 @@ function loose(){
 		defetWordForm = 'pokonał'
 	}
 	document.getElementById("demonPattern").classList.add("demonPatternLoose")
-	message = "Niestety, przegrałeś<br>"+randomDemonName +" " + defetWordForm + " Ciebie."
+	message = "Niestety, przegrałeś,<br>"+randomDemonName +" " + defetWordForm + " Ciebie.<br><br>"
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
 	document.getElementById("word").disabled=true
 	document.getElementById("next").disabled=false
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
-	document.getElementById("chancesLeft").innerHTML = ''
-	document.getElementById("letterOrWord").innerHTML = ''
+	document.getElementById("chancesLeft").innerHTML = '	'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
 	document.getElementById("demonPattern").innerHTML = message
+	
 }
 function chancesCount(chances){
 	weaponMessage = "Zostało Ci jeszcze " + chances + "woreczków soli."
@@ -297,8 +298,8 @@ function giveUpButton(){
 	document.getElementById("userInput").disabled=true
 	document.getElementById("next").disabled=false
 	document.getElementById("gameLevel").disabled=false
-	document.getElementById("chancesLeft").innerHTML = ''
-	document.getElementById("letterOrWord").innerHTML = ''
+	document.getElementById("chancesLeft").innerHTML = '	'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
 	
 }
 

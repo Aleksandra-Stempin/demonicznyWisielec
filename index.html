@@ -14,31 +14,34 @@
  
 </head>
 <body>
-	<h1 id="MainTitle"> Demoniczny wisielec</h1>
+	<div id="pageContent">
+		<h1 id="MainTitle"> Demoniczny wisielec</h1>
 
-	<div id="ChooseLevel">
-		<label for="gameLevel" id="gameLevelLbl" class="ChooseLevelClass">Wybierz poziom gry	</label>
-		<select id="gameLevel" name="gameLevel" class="ChooseLevelClass">
-			<option value="Easy">	Łatwy, 20 woreczków soli	</option>
-			<option value="Medium">	Średni, 10 woreczków soli	</option>
-			<option value="Hard">	Trudny, 5 woreczków soli	</option>
-		</select>
-	</div>
-	<div id="demonDescDiv">
-		<p id="demonDesc"></p>
-	</div>
-	<div id="demonPatternDiv">
-		<p id="demonPattern"></p>
-	</div>
-	
+		<div id="ChooseLevel">
+			<label for="gameLevel" id="gameLevelLbl" class="ChooseLevelClass">Wybierz poziom gry	</label>
+			<select id="gameLevel" name="gameLevel" class="ChooseLevelClass">
+				<option value="Easy">	Łatwy, 20 woreczków soli	</option>
+				<option value="Medium">	Średni, 10 woreczków soli	</option>
+				<option value="Hard">	Trudny, 5 woreczków soli	</option>
+			</select>
+		</div>
+		<div id="demonDescDiv">
+			<p id="demonDesc"></p>
+		</div>
+		<div id="demonPatternDiv">
+			<p id="demonPattern"></p>
+		</div>
+		
 
-	<p id = "chancesLeft"></p>
-	<p id = "letterOrWord"></p>
+		
+	</div>
 
 	<div id="windowBottom">
-		<form onSubmit="return false">
+		<p id = "chancesLeft"></p>
+		<p id = "letterOrWord"></p>
+		<form id="myForm" onSubmit="return false" autocomplete="off">
 			<div id="userField">
-				<input type="text" id="userInput" name="userInput" onSubmit="return false">
+				<input type="text" id="userInput" name="userInput" onSubmit="return false" autocomplete="none">
 			</div>
 		
 			<div id="buttons">
@@ -53,6 +56,7 @@
 				</div>
 			</div>
 		</form>
+		<p id="footer">Created by Aleksandra Stempin, January 2021</p>
 	</div>
 
 </body>
