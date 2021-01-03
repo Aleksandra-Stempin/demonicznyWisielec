@@ -53,7 +53,7 @@ function onStart(){
 Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą \"Podaj kolejną literę\".<br>\
 Jeżeli znasz już nazwę demona kliknij przycisk z etykietą \"Podaj nazwę demona\".<br>\
 Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Poddaję się\".<br>\
-Za każdym razem swoją decyzję potwierdź klikając z etykietą \"OK\".<br>\
+Za każdym razem swoją decyzję potwierdź klikając przycisk z etykietą \"OK\".<br>\
 Jeżeli masz odwagę kliknij przycisk z etykietą \"Demona poproszę\" i baw się dobrze.'
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
