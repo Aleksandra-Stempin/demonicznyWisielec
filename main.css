@@ -127,8 +127,8 @@ p{
    line-height:5%;
 }
 .butLbl{
-	padding:3px;
-	margin:0;
+	padding:3px !important;
+	margin:0 !important;
 }
 #topRow{
     padding-bottom:5px;
