@@ -30,7 +30,7 @@ p{
 	margin:0;
 	padding:0;
 	width:100%;
-	scrollbar-color: var(--font_color) var(--win_color);
+	scrollbar-color: pink green;;
 }
 #pageContent{
 	width:80%;
