@@ -232,8 +232,11 @@ p{
 
 }
 #ok{
+	/*
 	position: absolute;
 	right:10%;
+	*/
+	float:right;
 }
 #giveUp{
 	padding:0;
