@@ -22,9 +22,9 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--font_color); 
+  background:linear-gradient(var(--font_color), white); 
   border-radius: 10px;
- height: 30px;
+
 }
 
 /* Handle on hover */
