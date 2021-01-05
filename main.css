@@ -29,7 +29,7 @@
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--focus_color); 
+background:linear-gradient(var(--focus_color), white); 
 }
 
 body {
