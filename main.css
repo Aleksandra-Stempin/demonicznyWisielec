@@ -220,7 +220,7 @@ p{
 	text-align:center !important;
 }
 .buttonTop{
-    width:44%;
+    width:47%;
 	padding-top:10px;
     padding-left:0px;
     padding-right:0px;
@@ -240,8 +240,11 @@ p{
 }
 #giveUp{
 	padding:0;
+	/*
 	position: absolute;
 	right:10%;
+	*/
+	float:right;
 }
 
 #footer{
