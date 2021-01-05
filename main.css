@@ -118,10 +118,11 @@ p{
 }
 
 #demonPattern{
-	padding:0px;
+	padding:5px;
 	padding-top:0px;
 	text-align:center;
 	font-size:30px;
+	margin:0;
 }
 #windowBottom{
     position: fixed;
