@@ -22,14 +22,14 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background:linear-gradient(var(--font_color), white); 
+  background:linear-gradient(#021B79, #0575E6); 
   border-radius: 10px;
 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-background:linear-gradient(var(--focus_color), white); 
+background:linear-gradient(#FF8008, #FFC837); 
 }
 
 body {
