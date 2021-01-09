@@ -30,21 +30,24 @@
   background: linear-gradient(#c21500, #ffc500);
   border-radius: 15px;
 }
+html, body{
+	height:100%;
+}
 body {
     background-color:var(--widow_color);
     color:var(--font_color);
     font-family: 'Quicksand';
-    width:100%;
-    height:auto;
-    padding:10px;
     font-size: 20px;
 	padding:0;
 	margin:0; 
-	overflow:auto;
+	display: flex;
+	flex-direction: column;
+
 }
 p{
 	padding:0px;
 }
+/*
 #wholeContent{
 	height:99vh;
 	position:relative;
@@ -58,10 +61,12 @@ p{
 	padding:0;
 	margin:0;
 }
+*/
 #pageContent{
 	width:80%;
 	margin:auto;
 	padding:0;
+	flex: 1 0 auto;
 
 	
 }
@@ -122,12 +127,16 @@ p{
 	text-align:center;
 	font-size:30px;
 }
+
+
+
+
+
 #windowBottom{
-    position: absolute;
     width:100%;
-    bottom: 0;
 	margin:0;
 	padding:0;
+	flex-shrink: 0;
 
 }
 #chancesLeft{
