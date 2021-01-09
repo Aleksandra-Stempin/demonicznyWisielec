@@ -9,7 +9,27 @@
     --SelectBGColor:#e69327;
     --SelectFGColor:#171716;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--widow_color);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#021B79, #0575E6);
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(#c21500, #ffc500);
+  border-radius: 15px;
+}
 body {
     background-color:var(--widow_color);
     color:var(--font_color);
@@ -25,13 +45,25 @@ body {
 p{
 	padding:0px;
 }
+#wholeContent{
+	height:99vh;
+	position:relative;
+	padding:0;
+	margin:0;
+	
+}
 #pageContentOuter{
 	overflow:auto;
-	height:auto;
+	height:60vh;
+	padding:0;
+	margin:0;
 }
 #pageContent{
 	width:80%;
 	margin:auto;
+	padding:0;
+
+	
 }
 
 #MainTitle{
@@ -44,6 +76,7 @@ p{
 #ChooseLevel{
 	padding-top:10px;
 	padding-bottom:20px;
+
 }
 #gameLevel{
 	font-size:20px;
@@ -90,7 +123,7 @@ p{
 	font-size:30px;
 }
 #windowBottom{
-    position: fixed;
+    position: absolute;
     width:100%;
     bottom: 0;
 	margin:0;
@@ -190,25 +223,31 @@ p{
 	text-align:center !important;
 }
 .buttonTop{
-    width:44%;
+    width:49%;
 	padding-top:10px;
     padding-left:0px;
     padding-right:0px;
 
 }
 .buttonBottom{
-    width:30%;
+    width:32%;
     padding:0px;
 
 }
 #ok{
+	/*
 	position: absolute;
 	right:10%;
+	*/
+	float:right;
 }
 #giveUp{
 	padding:0;
+	/*
 	position: absolute;
 	right:10%;
+	*/
+	float:right;
 }
 
 #footer{

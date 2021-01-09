@@ -14,47 +14,50 @@
  
 </head>
 <body>
+	<div id="wholeContent">
 	<h1 id="MainTitle"> Demoniczny wisielec</h1>
-	<div id="pageContentOuter">
-		<div id="pageContent">
-			<div id="ChooseLevel">
-				<label for="gameLevel" id="gameLevelLbl" class="ChooseLevelClass">Wybierz poziom gry	</label>
-				<select id="gameLevel" name="gameLevel" class="ChooseLevelClass">
-					<option value="Easy">	Łatwy, 20 woreczków soli	</option>
-					<option value="Medium">	Średni, 10 woreczków soli	</option>
-					<option value="Hard">	Trudny, 5 woreczków soli	</option>
-				</select>
+		<div id="pageContentOuter">
+				<div id="pageContent">
+					<div id="ChooseLevel">
+						<label for="gameLevel" id="gameLevelLbl" class="ChooseLevelClass">Wybierz poziom gry	</label>
+						<select id="gameLevel" name="gameLevel" class="ChooseLevelClass">
+							<option value="Easy">	Łatwy, 20 woreczków soli	</option>
+							<option value="Medium">	Średni, 10 woreczków soli	</option>
+							<option value="Hard">	Trudny, 5 woreczków soli	</option>
+						</select>
+					</div>
+					<div id="demonDescDiv">
+						<p id="demonDesc"></p>
+					</div>
+					<div id="demonPatternDiv">
+						<p id="demonPattern"></p>
+					</div>	
+				</div>
+				
 			</div>
-			<div id="demonDescDiv">
-				<p id="demonDesc"></p>
-			</div>
-			<div id="demonPatternDiv">
-				<p id="demonPattern"></p>
-			</div>	
-		</div>
-	</div>
 
-	<div id="windowBottom">
-		<p id = "chancesLeft"></p>
-		<p id = "letterOrWord"></p>
-		<form id="myForm" onSubmit="return false" autocomplete="off">
-			<div id="userField">
-				<input type="text" id="userInput" name="userInput" onSubmit="return false" autocomplete="none">
-			</div>
-		
-			<div id="buttons">
-				<div id="topRow">
-					<button id = "next"  class="buttonTop" type="button" onclick="nextButton()"><p class="butLbl">Demona poproszę</p></button>
-					<button id = "ok" class="buttonTop" type="button" onclick="okButton()"><p class="butLbl">OK</p></button>
+		<div id="windowBottom">
+			<p id = "chancesLeft"></p>
+			<p id = "letterOrWord"></p>
+			<form id="myForm" onSubmit="return false" autocomplete="off">
+				<div id="userField">
+					<input type="text" id="userInput" name="userInput" onSubmit="return false" autocomplete="none">
 				</div>
-				<div id="bottomRow">
-					<button id = "letter" class="buttonBottom" type="button" onclick="letterButton()" ><p class="butLbl">Podaj kolejną literę</p></button>
-					<button id = "word" class="buttonBottom" type="button" onclick="wordButton()"><p class="butLbl">Podaj nazwę demona</p></button>
-					<button id = "giveUp" class="buttonBottom" type="button" onclick="giveUpButton()"><p class="butLbl">Poddaję się</p></button>
+			
+				<div id="buttons">
+					<div id="topRow">
+						<button id = "next"  class="buttonTop" type="button" onclick="nextButton()"><p class="butLbl">Demona poproszę</p></button>
+						<button id = "ok" class="buttonTop" type="button" onclick="okButton()"><p class="butLbl">OK</p></button>
+					</div>
+					<div id="bottomRow">
+						<button id = "letter" class="buttonBottom" type="button" onclick="letterButton()" ><p class="butLbl">Podaj kolejną literę</p></button>
+						<button id = "word" class="buttonBottom" type="button" onclick="wordButton()"><p class="butLbl">Podaj nazwę demona</p></button>
+						<button id = "giveUp" class="buttonBottom" type="button" onclick="giveUpButton()"><p class="butLbl">Poddaję się</p></button>
+					</div>
 				</div>
-			</div>
-		</form>
-		<p id="footer">Created by Aleksandra Stempin, January 2021</p>
+			</form>
+			<p id="footer">Created by Aleksandra Stempin, January 2021</p>
+		</div>
 	</div>
 
 </body>
