@@ -94,11 +94,12 @@ p{
 	cursor:default;
 	color:gray;
 }
+/*
 #gameLevelLbl{
     width:50%;
-	margin-right:20px;
-}
 
+}
+*/
 #demonDesc{
 	padding:0px;
 	padding-top:10px;
