@@ -49,12 +49,12 @@ var chances = 20
 var chancesOnStart = 20
 
 function onStart(){
-	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.<br>\
-Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą \"Podaj kolejną literę\".<br>\
-Jeżeli znasz już nazwę demona kliknij przycisk z etykietą \"Podaj nazwę demona\".<br>\
-Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą \"Poddaję się\".<br>\
-Za każdym razem swoją decyzję potwierdź klikając przycisk z etykietą \"OK\".<br>\
-Jeżeli masz odwagę kliknij przycisk z etykietą \"Demona poproszę\" i baw się dobrze.'
+	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.<br><br>\
+Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą <b>\"Podaj kolejną literę\"</b>.<br>\
+Jeżeli znasz już nazwę demona kliknij przycisk z etykietą <b>\"Podaj nazwę demona\"</b>.<br>\
+Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą <b>\"Poddaję się\"</b>.<br><br>\
+Za każdym razem swoją decyzję potwierdź klikając przycisk z etykietą <b>\"OK\"</b>.<br><br>\
+Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i baw się dobrze.'
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
 	document.getElementById("giveUp").disabled=true

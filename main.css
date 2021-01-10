@@ -40,6 +40,7 @@ body {
     font-size: 20px;
 	padding:0;
 	margin:0; 
+	overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
 
@@ -47,21 +48,7 @@ body {
 p{
 	padding:0px;
 }
-/*
-#wholeContent{
-	height:99vh;
-	position:relative;
-	padding:0;
-	margin:0;
-	
-}
-#pageContentOuter{
-	overflow:auto;
-	height:60vh;
-	padding:0;
-	margin:0;
-}
-*/
+
 #pageContent{
 	width:80%;
 	margin:auto;
