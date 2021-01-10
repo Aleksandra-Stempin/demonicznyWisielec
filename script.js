@@ -49,12 +49,12 @@ var chances = 20
 var chancesOnStart = 20
 
 function onStart(){
-	var welcomeText = 'Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.<br><br>\
+	var welcomeText = ' <p align="justify">Odgadnij nazwę demona słowiańskiego na podstawie podanej definicji.<br><br>\
 Możesz zgadywać wpisując kolejne litery, wtedy kliknij przycisk z etykietą <b>\"Podaj kolejną literę\"</b>.<br>\
 Jeżeli znasz już nazwę demona kliknij przycisk z etykietą <b>\"Podaj nazwę demona\"</b>.<br>\
 Jeżeli chcesz poznać nazwę demona kliknij przycisk z etykietą <b>\"Poddaję się\"</b>.<br><br>\
 Za każdym razem swoją decyzję potwierdź klikając przycisk z etykietą <b>\"OK\"</b>.<br><br>\
-Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i baw się dobrze.'
+Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i baw się dobrze.</p>'
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
 	document.getElementById("giveUp").disabled=true
@@ -75,7 +75,7 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 window.onload = onStart
 
 function win(){
-	message = "Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś "+randomDemonWinOrLoose +".<br><br>"
+	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>"+randomDemonWinOrLoose +"</b>.<br><br></p>"
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -158,7 +158,7 @@ function nextButton(){
 	usedDemons.push(randomDemonName)
 	
 	randomDemonWinOrLoose = randomDemon[1]
-	randomDemonDesc=randomDemon[2]
+	randomDemonDesc= "<p align='justify'>"+randomDemon[2]+"</p>"
 	var i
 	for (i=0; i<randomDemonName.length; i++){
 		if (randomDemonName.charAt(i)==' '){
