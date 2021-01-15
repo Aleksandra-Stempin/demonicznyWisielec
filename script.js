@@ -75,7 +75,8 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 window.onload = onStart
 
 function win(){
-	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>"+randomDemonWinOrLoose +"</b>.<br><br></p>"
+	//message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>"+randomDemonWinOrLoose +"</b>.<br><br></p>"
+	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>potwora</b>.<br><br></p>".replace("potwora", randomDemonWinOrLoose)
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
