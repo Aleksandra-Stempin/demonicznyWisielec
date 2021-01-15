@@ -75,7 +75,7 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 window.onload = onStart
 
 function win(){
-	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś "+randomDemonWinOrLoose +".<br><br></p>"
+	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>"+randomDemonWinOrLoose +"</b>.<br><br></p>"
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -84,7 +84,7 @@ function win(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz stoczyć następną walkę, naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz stoczyć następną walkę, naciśnij przycisk <b>\"Demona poproszę\"</b>.'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
@@ -110,7 +110,7 @@ function loose(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\"</b>.'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
@@ -300,7 +300,7 @@ function giveUpButton(){
 	document.getElementById("next").disabled=false
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\"</b>.'
 	
 }
 
