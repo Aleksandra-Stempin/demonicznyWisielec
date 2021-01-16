@@ -75,8 +75,7 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 window.onload = onStart
 
 function win(){
-	//message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>"+randomDemonWinOrLoose +"</b>.<br><br></p>"
-	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <b>potwora</b>.<br><br></p>".replace("potwora", randomDemonWinOrLoose)
+	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <span style='font-weight:bold'>"+randomDemonWinOrLoose +"<span>.<br><br></p>"
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -111,11 +110,7 @@ function loose(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-<<<<<<< HEAD
 	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\</b>".'
-=======
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\"</b>.'
->>>>>>> 31b76b312d3fbc81b4b6d9ced8dfc07443f9ab16
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
