@@ -84,7 +84,7 @@ function win(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz stoczyć następną walkę, naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz stoczyć następną walkę, naciśnij przycisk <b>\"Demona poproszę\"</b>.'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
@@ -95,7 +95,7 @@ function loose(){
 	if (lastChar=="a"){
 		defetWordForm = "pokonała"
 	}
-	else if (lastChar=="o"){
+	else if (lastChar=="o"  || lastChar=="e" || lastChar=="ę" ){
 		defetWordForm = "pokonało"
 	}
 	else{
@@ -110,7 +110,7 @@ function loose(){
 	document.getElementById("giveUp").disabled=true
 	document.getElementById("userInput").disabled=true
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\</b>".'
 	document.getElementById("demonPattern").innerHTML = message
 	
 }
@@ -300,7 +300,7 @@ function giveUpButton(){
 	document.getElementById("next").disabled=false
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("chancesLeft").innerHTML = '	'
-	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk \"Demona poproszę\".'
+	document.getElementById("letterOrWord").innerHTML = '<br>Jeżeli chcesz spróbować ponownie naciśnij przycisk <b>\"Demona poproszę\"</b>.'
 	
 }
 

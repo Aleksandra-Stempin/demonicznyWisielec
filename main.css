@@ -97,9 +97,10 @@ p{
 
 #gameLevelLbl{
     margin-right:5px;
-
 }
-
+.levelLbl{
+	margin:5px;
+}
 #demonDesc{
 	padding:0px;
 	padding-top:10px;
