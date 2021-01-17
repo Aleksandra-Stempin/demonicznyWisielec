@@ -3,7 +3,7 @@ var demons_list =[
         ['żmij', 'żmija', 'Skrzydlata, gadzia postać trochę przypominająca smoka'],
         ['bęłt', 'bełta' , 'Inaczej błąd lub błud. Złośliwy polny lub leśny demon, który zwodził wędrowców, szczególnie nietrzeźwych, na manowce powodując dezorientację przestrzeną.'],
         ['bies', 'biesa' , 'Personifikacja bliżej nieokreślonego złego ducha. Demon ten mógł wnikać w poszczególne osoby i kierować ich działaniami.'],
-        ['pałetnik', 'pałetnika', 'Demoniczna lub półdemoniczna postać uosabiająca zjawiska atmosferyczne. Wierzono, że kierowała ona chmurami. Mogli to też być mężczyźni obdarzeni mocą kontrolowania pogody.'],
+        ['płanetnik', 'płanetnika', 'Demoniczna lub półdemoniczna postać uosabiająca zjawiska atmosferyczne. Wierzono, że kierowała ona chmurami. Mogli to też być mężczyźni obdarzeni mocą kontrolowania pogody.'],
         ['leszy', 'leszego' , 'Władca lasu oraz istot w nim żyjących. Przyjmował postać mężczyzny z nienaturalnie bladą tworzą, mógł też przyjmować postać zwierząt takich jak niedźwiedź  lub wilk. Jego stosunek do ludzi był zasadniczo neutralny, lecz potrafił bardzo zaszkodzić tym, którzy niszczyli jego królestwo.'],
         ['licho', 'licho' , 'Demon wędrujący po świecie szukając miejsc, gdzie ludzie żyją szczęśliwie. Czesto podpalał budynki, zsyłał głód, biedę i różne choroby po czym odchodził. Nie było przed nim obrony, trzyba było poczekać, aż sobie pójdzie. Demon ten rzadko pokazywał się ludziom. Kiedy już to robił, przyjmował  postać wychudzonej kobiety z jednym okiem.'],
         ['poroniec', 'porońca' , 'Złośliwy i wrogi ludziom demon wywodzący  się z duszy poronionego lub spędzonego płodu.'],
