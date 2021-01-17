@@ -31,7 +31,18 @@ var demons_list =[
         ['cmentarna baba','cmentarną babę','Demon żeński snujący się nocą w okolicach cmentarzy. Rozgrzebywała groby i rozrzucała kości. Napotkanych ludzi  łapała w uzbrojone w pazury łapy i próbowała zaciągnąć między mogiły.'],
         ['dola','dolę','Żeński demon opiekuńczy, który towarzyszył człowiekowi przez całe życie, czasem nawet przechodził z pokolenia na pokolenie. Duch ten zajmował się potomstwem swojego właściciela, doglądał jego dobytku i zapewniał dobrobyt. Należało jedynie uważać, aby nie go nie rozgniewać, czyli wstawać ochoczo do pracy dwie godziny przed świtem i ciężko pracować przez całe życie.'],
         ['dziki myśliwy','dzikiego myśliwego ','Demon powstały z pokutującej duszy, który pod postacią konnego łowcy przemierzał nocami puszcze i lasy ze sforą widmowych psów. Napotkanego nieszczęśnika potrafił ciężko poturbować, a nawet zabić.'],
-        ['fajerman','fajermana','Demon powstały z duszy człowieka, który za życia w sposób bezsensowny i okrutny dręczył zwierzęta. Miał postać płonącego bezgłowego ciała.']
+        ['fajerman','fajermana','Demon powstały z duszy człowieka, który za życia w sposób bezsensowny i okrutny dręczył zwierzęta. Miał postać płonącego bezgłowego ciała.'],
+		['aitwar','aitwara','Demon domowy pochodzenia litewskiego. W zamian za ciepły kąt i odrobinę pożywienia, przynosił swojemu gospodarzowi różne dobra, bardzo często skradzione.<br>Z wyglądu przypominał węża z głową ptaka i rozłożystym ogonem. Kiedy krążył nad wsią, jarzył się słabym światłem. Upatrzywszy sobie gospodarstwo, wlatywał bezszelestnie przez okno i kradł co popadnie. Gdy wracał do domu z łupami, dyszał ciężko, a z jego ogona sypały się iskry.'],
+		['ankluz','ankluza','Wyspecjalizowany demon zamieszkujący instrumenty muzyczne, szczególnie lubił skrzypce. W zamian za swoją duszę, muzyk zyskiwał nadzwyczajną umiejętność grania bardzo dobrych melodii, porywających do tańca nawet największych ponuraków.'],
+		['koński łeb','koński łeb','Demoniczna istota przypominająca czaszkę konia wyposażoną w pajęcze odnóża. Czatowała przy cmentarzach i na rozstajach dróg strasząc przechodniów i nie pozwalając im przejść. Demon ten roznosił też różne groźne choroby, dlatego starano się go unikać.'],
+		['lejiń','lejina','Przebiegły, wrogi ludziom demon wyglądający jak olbrzymi, dorodny jeleń.<br>Potrafił udawać rannego i wodzić łowców, aż ci gubili się w gęstym, ciemnym lesie i przepadali na długi czas. Czasem udawał, że tonie w bagnie, tylko po to, by zgubić osobę, która próbuję mu pomóc. <br>Gdy zawodziły wszelkie podstępy, używał brutalnej siły atakując swoją ofiarę kopytami i porożem, śmiejąc się przy tym ludzkim głosem.'],
+		['baj','baja','Żyjąca w chatach istota, która nocami dreptała po suficie i ścianach chłopskiej izby. Za strawę (miskę mleka i łyżkę kaszy), pomagała gospodarzowi usypiając dziadki swoim melodyjnym śpiewem.'],
+		['bizia','bizię','Wyjątkowo złośliwy gatunek zmory dręczący spokojnie śpiących ludzi. Zjawiała się wieczorami, a za swoje ofiary bardzo chętnie wybierała maleńkie dzieci baraszkujące w kołyskach.<br>Najpierw usypiała je bujając rytmicznie kołyską i nucąc tajemnice pieśni, a następnie przystępowała do ataku, wysysając krew z biednych szkrabów. Po wszystkim znikała bezszelestnie.'],
+		['chichitun','chichituna','Mały, włochaty psotny stworek o długim ogonie i rogach na głowie. Zsyłał na ludzi drobne, aczkolwiek uciążliwe i denerwujące wypadki. Po każdej swojej psocie wybuchał głośnym śmiechem za plecami poszkodowanego. Zdarzało się, że złośliwy stwór nie wytrzymywał i zaczynał się śmiać przed dokonaniem psoty. Wtedy można było potraktować to jak ostrzeżenie i spróbować uniknąć nieszczęścia.'],
+		['czart','czarta','Koszmarny stwór, pół kozioł, pół człowiek zamieszkujący bagna. Rzadko odwiedzał ludzkie siedziby, a jak już to robił to tylko w celu gnębienia prostych ludzi na przykład poprzez zsyłanie chorób i namawianie do bezeceństw.'],
+		['dobrochoczy','dobrochoczego','Leśny demon zamieszkujący w dawnych czasach bory, lasy i puszcze Podhala. Do ludzi odnosił się zazwyczaj dość nieufnie, ale był uważany za sprawiedliwego sędziego. Niewinnego człowieka nigdy nie krzywdził, a czasem nawet pomagał w potrzebie. Natomiast, gdy spotkał złoczyńcę, był dla niego bezlitosny, karząc go bolesną śmiercią. Jedynym ratunkiem w takiej sytuacji było przebłaganie go odpowiednymi darami, na przykład kromką chleba i szczyptą soli.<br>Wzrostem demon ten dostosował się do wysokości drzew rosnących na jego terenie.'],
+		['grzenia','grzenię','Pogodny demon domowy pomagający swoim gospodarzom. Duszek ten przygotowywał ludziom ciepłe posłania, nucił dzieciom kołysanki. Dzięki jego pomocy, ludzie budzili się rześcy i gotowi do pracy. <br>Stworek ten opiekował się także zwierzętami, zarówno domowymi jak i dzikimi. Późną jesienią wędrował do lasu, aby czuwać nad pogrążonym w zimowym letargu zwierzętami.'],
+		['kłobuk','kłobuka','Zły duch niższego rzędu, najczęściej zamieszkiwał tereny leśne, ale czasem, najczęściej w czasie jesiennej słoty, podchodził pod siedziby ludzkie przyjmując postać czarnego ptaszyska trochę podobnego do kurczaka.<br>Gdy ktoś się nad nim zlitował, znosił swojemu opiekunowi skradzione innym mieszkańcom wsi przedmioty. Za swoje usługi oczekiwał starej, wymoszczonej puchem beczki do spania oraz codziennej porcji jajecznicy na maśle.<br>Gdy gospodarze zdecydowali się wygonić kłopotliwego pomocnika, ten mógł stać się agresywny, ale zazwyczaj znikał bez większych problemów wylatując przez komin. Niestety, w takiej sytuacji, wszystkie dobra przez niego przyniesione, zmieniały się w sierdzące łajno.']
         ]
 var randomDemonName = ''
 var randomDemonDesc = ''
@@ -75,7 +86,7 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 window.onload = onStart
 
 function win(){
-	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <span style='font-weight:bold'>"+randomDemonWinOrLoose +"<span>.<br><br></p>"
+	message = "<p>Gratuluję odważny pogromco słowiańskich demonów,<br>pokonałeś <i>"+randomDemonWinOrLoose +"</i>.<br><br></p>"
 	document.getElementById("demonPattern").classList.add("demonPatternWin")
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
@@ -102,7 +113,7 @@ function loose(){
 		defetWordForm = 'pokonał'
 	}
 	document.getElementById("demonPattern").classList.add("demonPatternLoose")
-	message = "Niestety, przegrałeś,<br>"+randomDemonName +" " + defetWordForm + " Ciebie.<br><br>"
+	message = "Niestety, przegrałeś,<br><i>"+randomDemonName +"</i> " + defetWordForm + " Ciebie.<br><br>"
 	document.getElementById("gameLevel").disabled=false
 	document.getElementById("letter").disabled=true
 	document.getElementById("word").disabled=true
@@ -290,7 +301,7 @@ function okButton(){
 }
 
 function giveUpButton(){
-	const message = "Tajemniczym demonem jest "+randomDemonName+"."
+	const message = "Tajemniczym demonem jest <i>"+randomDemonName+"</i>."
 	document.getElementById("demonPattern").innerHTML = message
 	document.getElementById("ok").disabled=true
 	document.getElementById("letter").disabled=true
