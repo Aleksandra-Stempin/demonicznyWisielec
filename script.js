@@ -154,6 +154,8 @@ function nextButton(){
 	document.getElementById("userInput").disabled=true
 	document.getElementById("demonPattern").classList.remove("demonPatternWin")
 	document.getElementById("demonPattern").classList.remove("demonPatternLoose")
+	document.getElementById("demonPattern").classList.remove("demonPatternNormal")
+	
 	chancesDesc = document.getElementById('gameLevel').value
 	chancesSel = document.getElementById('gameLevel')
 	chancesDesc =chancesSel.options[chancesSel.selectedIndex].text
@@ -300,6 +302,7 @@ function okButton(){
 }
 
 function giveUpButton(){
+	document.getElementById("demonPattern").classList.add("demonPatternNormal")
 	const message = "Tajemniczym demonem jest <i>"+randomDemonName+"</i>."
 	document.getElementById("demonPattern").innerHTML = message
 	document.getElementById("ok").disabled=true
