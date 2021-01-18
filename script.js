@@ -50,7 +50,7 @@ var randomDemonWinOrLoose = ''
 var randomDemonPattern = ''
 var randomDemonPatternArray = []
 var unknownChar = '-'
-var spaceChar = '  '
+var spaceChar = ' '
 var usedDemons = []
 var usedLetters = ''
 var letterClicked = false
@@ -79,7 +79,6 @@ Jeżeli masz odwagę kliknij przycisk z etykietą <b>\"Demona poproszę\"</b> i 
 		usedDemons[i]=''
 	}
 		
-	//welcomeText = "joł"
 	
 }
 
